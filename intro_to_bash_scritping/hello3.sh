@@ -14,6 +14,8 @@ echo
 echo -e "DIRECTORY LIST:\n$file_list"
 # the unset command is used to remove an element from an array.
 #unset usernames
+
+# reading from an array.
 echo "user: ${usernames[0]}"
 echo "user: ${usernames[1]}"
 echo "user: ${usernames[2]}"

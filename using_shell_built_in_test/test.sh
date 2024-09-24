@@ -1,9 +1,9 @@
 #!/bin/bash
-# this test if the argument passed to the script is greater than zero.
-[ $# -gt 0]
+# this test if the argument passed to the script is greater than zero. flags like -lt(less than), le(less than or equal #to), ge(greater than or equal to), ne#(not equal) can be used.
+[ $# -gt 0 ]
 
 # this test if file.txt is a regular file.
-[ -f file.txt]
+[ -f file.txt ]
 
 # this test if the directory has a symbolic link.
 [ -h /usr/src/linux ]

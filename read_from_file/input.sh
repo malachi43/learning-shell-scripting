@@ -3,4 +3,4 @@
 while read line
 do
 echo $line
-done < $HOME/bin/test.txt
+done < $HOME/bin/read_from_file/test.txt
