@@ -1,0 +1,5 @@
+drill,99,50
+hammer,10,50
+lamp,25,100
+screwdriver,5,23
+table-saw,1099,3
